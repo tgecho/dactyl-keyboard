@@ -1,0 +1,32 @@
+keys:
+  styles:
+    default:
+      switch-type: kailh-pg1511
+    big:
+      switch-type: kailh-pg1511
+key-clusters:
+  main:
+    matrix-columns:
+      - rows-above-home: 2
+        rows-below-home: 1
+      - rows-above-home: 2
+        rows-below-home: 1
+      - rows-above-home: 2
+        rows-below-home: 2
+      - rows-above-home: 2
+        rows-below-home: 1
+      - rows-above-home: 2
+        rows-below-home: 1
+  arrows:
+    anchoring:
+      anchor: m02
+      preserve-orientation: true
+      intrinsic-rotation: [0, 0, 0]
+      extrinsic-offset: [-1.8, -38.3, -5.9]
+    matrix-columns:
+      - rows-above-home: 0
+      - rows-above-home: 1
+      - rows-above-home: 0
+    # aliases:
+    #   thumb-tr: [1, 0] # Top right.
+    #   thumb-tl: [0, 0]
